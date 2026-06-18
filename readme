@@ -1,0 +1,136 @@
+# 📊 E-Commerce and Consumer Behavior Analytics: Data Dashboard (Philippines)
+
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-0C4B33?style=for-the-badge)
+![ggplot2](https://img.shields.io/badge/ggplot2-1F77B4?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+
+---
+
+## 📌 Project Overview
+
+This project analyzes **e-commerce consumer behavior in the Philippines** using:
+- Transactional customer data
+- Google Trends data
+- Consumer survey responses
+
+It applies **data analytics and machine learning techniques** to extract insights and presents results through an **interactive R Shiny dashboard**.
+
+---
+
+## 🎯 Objectives
+
+- Predict customer spending behavior
+- Segment customers into value-based groups
+- Identify best-selling product categories
+- Analyze consumer interest trends over time
+- Support data-driven business decisions
+
+---
+
+## 📊 Key Features
+
+- Data cleaning and preprocessing (ETL pipeline)
+- Exploratory Data Analysis (EDA)
+- Multiple Linear Regression (Spending Prediction)
+- K-Means Clustering (Customer Segmentation)
+- Interactive dashboards using Shiny
+- Visualization using ggplot2 & Plotly
+
+---
+
+## 🧠 Machine Learning Models
+
+### 📈 Multiple Linear Regression
+Used to predict total customer spending based on:
+- Age
+- Items Purchased
+- Average Rating
+- Days Since Last Purchase
+
+### 👥 K-Means Clustering
+Segments customers into:
+- High-Value Customers
+- Medium-Value Customers
+- Low-Value Customers
+
+---
+
+## 📁 Dataset Sources
+
+- Kaggle E-Commerce Dataset  
+  https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset
+
+- Google Trends  
+  https://trends.google.com
+
+- Consumer Survey (Google Forms)
+
+---
+
+## 🛠️ Technologies Used
+
+- R / RStudio
+- Shiny / Shinydashboard
+- ggplot2
+- Plotly
+- dplyr
+- tidyr
+- DT
+
+---
+
+## 📷 Dashboard Screenshots
+
+### 🟢 Sales Performance Dashboard
+*(Insert image here)*  
+![Sales Dashboard](screenshots/sales_dashboard.png)
+
+---
+
+### 🟡 Best Selling Products
+*(Insert image here)*  
+![Products Dashboard](screenshots/products_dashboard.png)
+
+---
+
+### 🔵 Customer Segmentation
+*(Insert image here)*  
+![Segmentation](screenshots/segmentation_dashboard.png)
+
+---
+
+### 🟣 Monthly Trends
+*(Insert image here)*  
+![Trends](screenshots/trends_dashboard.png)
+
+---
+
+### 🟠 Recommendations Panel
+*(Insert image here)*  
+![Recommendations](screenshots/recommendation_dashboard.png)
+
+---
+
+## 📌 Key Insights
+
+- Electronics, fashion, and beauty are top-performing categories
+- Discounts significantly influence purchase behavior
+- High ratings and frequent purchases increase spending
+- Seasonal spikes occur during major sale events (11.11, 12.12)
+
+---
+
+## 📈 Results Summary
+
+- Model Accuracy (R²): **0.9764**
+- Significant predictors: Items Purchased, Rating, Purchase Recency
+- 3 Customer clusters successfully identified
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/ecommerce-analytics-dashboard.git
